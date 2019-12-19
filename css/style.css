@@ -1,0 +1,33 @@
+#container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.row {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {  
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#header {
+    margin: auto;
+    padding: 4% 0;
+    text-align: center;
+}
+
+#btnContainer {
+    text-align: center;
+    margin-bottom: 1.5%;
+}

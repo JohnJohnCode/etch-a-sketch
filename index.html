@@ -3,15 +3,17 @@
 <head>
   <title>Etch-a-sketch!</title>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Leckerli+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="header">Etch-a-sketch</h1>
+    <h1 id="header">Etch-a-Sketch</h1>
     <div id="btnContainer">
-      <button id="btnClear">Clear</button>
-      <button id="btnResize">Resize canvas</button>
-      <button id="btnRandom">Random color</button>
-      <button id="btnShade">Shade mode</button>
-      <button id="btnChoose">Choose color</button>
+      <button class="btnFlexItem" id="btnClear">Clear</button>
+      <button class="btnFlexItem" id="btnResize">Resize canvas</button>
+      <button class="btnFlexItem" id="btnRandom">Random color off</button>
+      <button class="btnFlexItem" id="btnShade">Shade mode off</button>
+      <input id="btnColor" class="btnFlexItem" type="color">
+      <button class="btnFlexItem" id="btnGrid">Grid off</button>
     </div>
     <div id="container">
 

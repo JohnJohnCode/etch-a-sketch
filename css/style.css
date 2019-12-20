@@ -13,21 +13,79 @@
     align-items: center;
 }
 
+.grid {
+    border: 0.02rem solid #222222;
+}
+
+.gridCellUp {
+    border-top: 0.02rem solid #000000;
+}
+
+.gridCellBottom {
+    border-bottom: 0.02rem solid #000000;
+}
+
+.gridCellLeft {
+    border-left: 0.02rem solid #000000;
+}
+
+.gridCellRight {
+    border-right: 0.02rem solid #000000;
+}
+
 .cell {  
-    border: 1px solid gray;
     display: inline-block;
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    background-color: #ffffff;
 }
 
 #header {
     margin: auto;
-    padding: 4% 0;
+    padding: 2% 0;
     text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-size: 5rem;
 }
 
 #btnContainer {
     text-align: center;
-    margin-bottom: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnFlexItem {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    height: 2.2rem;
+}
+
+button, input {
+    width: 9rem;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	display: inline-block;
+	color: #000000;
+	font-family: Arial;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    outline: none;
+}
+
+#btnColor {
+    height: 1.83rem;
+    width: 8.5rem;
+}
+
+button:hover, input:hover {
+    border: 2px dashed #000000;
 }
